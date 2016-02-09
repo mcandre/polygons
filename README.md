@@ -25,6 +25,8 @@ user	0m48.041s
 sys	0m0.441s
 ```
 
+Historical note: the 100th square-and-triangle-number, 367169739313136929, had no Google results as of this original post.
+
 # REQUIREMENTS
 
 * [Haskell](https://www.haskell.org/)
