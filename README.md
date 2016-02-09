@@ -28,3 +28,7 @@ Squares and triangles: [0,1,36,1225,41616,1413721,48024900,1631432881,5542069305
 * [Haskell](https://www.haskell.org/)
 
 E.g., `brew install ghc cabal-install`
+
+## Optional
+
+* [make](https://www.gnu.org/software/make/make.html))
