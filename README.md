@@ -32,3 +32,7 @@ E.g., `brew install ghc cabal-install`
 ## Optional
 
 * [make](https://www.gnu.org/software/make/make.html)
+
+# CREDITS
+
+Inspired by Matt Parker's playful [Fun Things to Make and Do in the Fourth Dimension](http://www.amazon.com/gp/product/0374535639).
