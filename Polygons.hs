@@ -16,6 +16,7 @@ isTriangular n = isSquare (8 * n + 1)
 triangles :: [Integer]
 triangles = map (\n -> n * (n + 1) `div` 2) [0..]
 
+-- slightly faster than filter isSquare triangles
 squaresAndTriangles :: [Integer]
 squaresAndTriangles = filter isTriangular squares
 
