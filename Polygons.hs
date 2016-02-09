@@ -17,8 +17,8 @@ triangles :: [Integer]
 triangles = map (\n -> n * (n + 1) `div` 2) [0..]
 
 -- slightly faster than filter isSquare triangles
-squaresAndTriangles :: [Integer]
-squaresAndTriangles = filter isTriangular squares
+triangularSquares :: [Integer]
+triangularSquares = filter isTriangular squares
 
 usage :: IO ()
 usage = putStrLn "Usage: polygons <length>"
@@ -31,5 +31,5 @@ main = do
     (len':[]) -> let len = (read len' :: Int) in do
       putStrLn $ "Squares: " ++ (show . take len) squares
       putStrLn $ "Triangles: " ++ (show . take len) triangles
-      putStrLn $ "Squares and triangles: " ++ (show . take len) squaresAndTriangles
+      putStrLn $ "Triangular Squares: " ++ (show . take len) triangularSquares
     _ -> usage
