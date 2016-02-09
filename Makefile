@@ -10,5 +10,12 @@ $(BIN): polygons.hs
 	mkdir -p bin/
 	ghc $(FLAGS) Polygons.hs
 
+hlint:
+	hlint .
+
+lint: hlint
+
 clean:
 	-rm -rf bin
+	-rm *.o
+	-rm *.hi

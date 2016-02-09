@@ -21,8 +21,7 @@ squaresAndTriangles :: [Integer]
 squaresAndTriangles = filter isTriangular squares
 
 usage :: IO ()
-usage = do
-  putStrLn "Usage: polygons <length>"
+usage = putStrLn "Usage: polygons <length>"
 
 main :: IO ()
 main = do
