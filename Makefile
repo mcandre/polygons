@@ -4,7 +4,7 @@ FLAGS=-O2 -Wall -fwarn-tabs --make -fforce-recomp -o $(BIN)
 all: test
 
 test: $(BIN)
-	time $(BIN) 20
+	time $(BIN) 10
 
 $(BIN): polygons.hs
 	mkdir -p bin/
