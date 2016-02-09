@@ -31,4 +31,4 @@ E.g., `brew install ghc cabal-install`
 
 ## Optional
 
-* [make](https://www.gnu.org/software/make/make.html))
+* [make](https://www.gnu.org/software/make/make.html)
